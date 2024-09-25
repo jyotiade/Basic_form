@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from app.forms import RegistrationForm,LoginForm,QueryForm
+from .forms import RegistrationForm,LoginForm,QueryForm
 from .models import StudentModel,StudentQuery
 # Create your views here.
 
